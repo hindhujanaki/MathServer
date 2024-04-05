@@ -31,10 +31,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ```
-
 ## math.html
-
-
 
 <html>
 <head>
@@ -78,8 +75,6 @@ text-align: center;
 padding-top: 20px;
 }
 
-
-
 </style>
 </head>
 <body>
@@ -91,7 +86,6 @@ padding-top: 20px;
 <div class="formelt">
 Radius : <input type="text" name="radius" value="{{r}}"></input>(in m)<br/>
 
-
 </div>
 <div class="formelt">
 Height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
@@ -99,7 +93,6 @@ Height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
 <div class="formelt">
 <input type="submit" value="Calculate"></input><br/>
 </div>
-
 
 <div class="formelt">
 Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/>
@@ -111,12 +104,7 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/
 </body>
 </html>
 
-
-
 ## views.py
-
-
-
 
 from django.shortcuts import render
 def surfacearea(request):
@@ -138,11 +126,7 @@ def surfacearea(request):
         print('Area=',area)
     return render(request,'mathapp/math.html',context)
 
-
-
 ## urls.py
-
-
 
 from django.contrib import admin
 from django.urls import path
@@ -156,8 +140,6 @@ urlpatterns = [
 
 ```
 
-
-
 ## SERVER SIDE PROCESSING:
 
 ![alt text](image.png)
@@ -167,9 +149,12 @@ urlpatterns = [
 
 ## HOMEPAGE:
 
-
-
 ![alt text](<Screenshot 2024-04-02 061821.png>)
+
+
+
+
+
 
 
 
