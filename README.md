@@ -156,13 +156,23 @@ urlpatterns = [
 
 ```
 
+
+
 ## SERVER SIDE PROCESSING:
 
 ![alt text](image.png)
 
+
+
+
 ## HOMEPAGE:
 
+
+
 ![alt text](<Screenshot 2024-04-02 061821.png>)
+
+
+
 
 
 ## RESULT:
