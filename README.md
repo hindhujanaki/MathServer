@@ -31,7 +31,11 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ```
+
 ## math.html
+
+
+
 <html>
 <head>
 <meta charset='utf-8'>
@@ -50,6 +54,7 @@ margin-right: auto;
 padding-top: 250px;
 padding-left: 300px;
 }
+
 .box {
 display:block;
 border: Thick dashed rgb(0, 255, 30);
@@ -58,18 +63,23 @@ min-height: 300px;
 font-size: 20px;
 background-color:rgb(255, 192, 213);
 }
+
 .formelt{
 color:rgb(0, 221, 255);
 text-align: center;
 margin-top: 7px;
 margin-bottom: 6px;
 }
+
 h1
 {
 color:rgb(255, 47, 0);
 text-align: center;
 padding-top: 20px;
 }
+
+
+
 </style>
 </head>
 <body>
@@ -80,6 +90,8 @@ padding-top: 20px;
 {% csrf_token %}
 <div class="formelt">
 Radius : <input type="text" name="radius" value="{{r}}"></input>(in m)<br/>
+
+
 </div>
 <div class="formelt">
 Height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
@@ -87,16 +99,24 @@ Height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
 <div class="formelt">
 <input type="submit" value="Calculate"></input><br/>
 </div>
+
+
 <div class="formelt">
 Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/>
 </div>
 </form>
 </div>
 </div>
+
 </body>
 </html>
 
+
+
 ## views.py
+
+
+
 
 from django.shortcuts import render
 def surfacearea(request):
@@ -118,7 +138,11 @@ def surfacearea(request):
         print('Area=',area)
     return render(request,'mathapp/math.html',context)
 
+
+
 ## urls.py
+
+
 
 from django.contrib import admin
 from django.urls import path
@@ -128,13 +152,19 @@ urlpatterns = [
     path('surfacearea/',views.surfacearea,name="surfacearea"),
     path('',views.surfacearea,name="surfacearearoot")
 ]
+
+
 ```
 
 ## SERVER SIDE PROCESSING:
+
 ![alt text](image.png)
 
 ## HOMEPAGE:
 
 ![alt text](<Screenshot 2024-04-02 061821.png>)
+
+
 ## RESULT:
+
 The program for performing server side processing is completed successfully.
