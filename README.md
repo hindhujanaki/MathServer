@@ -141,13 +141,11 @@ urlpatterns = [
 ```
 
 ## SERVER SIDE PROCESSING:
-![alt text](image.png)
+![alt text](<Screenshot 2024-04-08 084747.png>)
 
 ## HOMEPAGE:
 
-![Screenshot 2024-04-08 073833](https://github.com/hindhujanaki/MathServer/assets/148514666/b8f71542-12e6-4336-bb3a-02ebbd35a6a5)
-
-
+![alt text](<Screenshot 2024-04-08 084645.png>)
 
 
 
