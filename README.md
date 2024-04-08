@@ -142,14 +142,15 @@ urlpatterns = [
 
 ## SERVER SIDE PROCESSING:
 
-![alt text](image.png)
+![Screenshot 2024-04-08 073612](https://github.com/hindhujanaki/MathServer/assets/148514666/622282d2-b7f1-4df4-90b2-35ce4f61aa98)
+
 
 
 
 
 ## HOMEPAGE:
 
-![alt text](<Screenshot 2024-04-02 061821.png>)
+![Screenshot 2024-04-08 073833](https://github.com/hindhujanaki/MathServer/assets/148514666/b8f71542-12e6-4336-bb3a-02ebbd35a6a5)
 
 
 
